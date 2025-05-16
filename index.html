@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Neko Web</title>
+    <style>
+      body {
+        font-family: "Segoe UI", sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #fffafc;
+        color: #333;
+      }
+
+      header {
+        background-color: #ffcce0;
+        padding: 20px;
+        text-align: center;
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: 36px;
+        color: #4a4a4a;
+      }
+
+      .content {
+        padding: 30px;
+        max-width: 900px;
+        margin: auto;
+      }
+
+      .intro {
+        font-size: 18px;
+        line-height: 1.6;
+        margin-bottom: 30px;
+      }
+
+      .main-img {
+        width: 100%;
+        max-height: 400px;
+        object-fit: cover;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        margin-bottom: 30px;
+      }
+
+      .video-container {
+        margin: 30px 0;
+        text-align: center;
+      }
+
+      .video-container iframe {
+        width: 100%;
+        max-width: 700px;
+        height: 400px;
+        border: none;
+        border-radius: 10px;
+      }
+
+      .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 15px;
+      }
+
+      .gallery img {
+        width: 100%;
+        border-radius: 8px;
+        height: 200px;
+        object-fit: cover;
+        box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      footer {
+        background-color: #ffd6e8;
+        padding: 15px;
+        text-align: center;
+        margin-top: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>NekoWeb</h1>
+    </header>
+
+    <div class="content">
+      <p class="intro">
+        Kucing adalah hewan peliharaan yang menggemaskan, mandiri, dan penuh
+        kasih sayang. Mereka dikenal karena kelucuannya, kebersihannya, dan
+        sikap manja kepada pemiliknya.
+      </p>
+
+      <img src="./assets/kucing1.jpg" alt="Kucing utama" class="main-img" />
+
+      <div class="video-container">
+        <p>Tonton video lucu kucing berikut:</p>
+        <iframe src="./assets/Kittens.mp4" allowfullscreen></iframe>
+      </div>
+
+      <h2>Galeri Kucing</h2>
+      <div class="gallery">
+        <img src="./assets/kucing2.jpg" alt="Kucing 1" />
+        <img src="./assets/kucing3.jpg" alt="Kucing 2" />
+        <img src="./assets/kucing4.jpg" alt="Kucing 3" />
+        <img src="./assets/kucing5.jpg" alt="Kucing 4" />
+      </div>
+    </div>
+
+    <footer>&copy; 2025 NekoWeb. Gilang Cahya Pinandhita.</footer>
+  </body>
+</html>
